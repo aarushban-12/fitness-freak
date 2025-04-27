@@ -1,0 +1,29 @@
+.smartwatch-section {
+    background: linear-gradient(135deg, #e9f2fb, #f5f7fa);
+    min-height: 100vh;
+  }
+  
+  .smartwatch-card {
+    background-color: #ffffff;
+    max-width: 700px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .smartwatch-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .smartwatch-heading {
+    font-weight: 700;
+    color: #003366;
+    font-size: 2.7rem;
+  }
+  
+  .smartwatch-description {
+    font-size: 1.25rem;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 1rem;
+  }
+  
